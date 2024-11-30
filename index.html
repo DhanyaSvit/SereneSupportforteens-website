@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2024/11/29/18/20241129185957-WKDLE4QT.js"></script>
+      
+  <div id="main-container">
+    <!-- Signup/Login Section -->
+    <div id="auth-section">
+      <h1>Mental Health Support</h1>
+      <div class="auth-forms">
+        <form id="signup-form">
+          <h2>Sign Up</h2>
+          <input type="text" id="signup-username" placeholder="Username" required>
+          <input type="password" id="signup-password" placeholder="Password" required>
+          <button type="submit">Sign Up</button>
+        </form>
+        <form id="login-form">
+          <h2>Login</h2>
+          <input type="text" id="login-username" placeholder="Username" required>
+          <input type="password" id="login-password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Main Features -->
+    <div id="app-section" class="hidden">
+      <!-- Mood Tracker -->
+      <section id="mood-tracker">
+        <h2>Track Your Mood</h2>
+        <div class="mood-buttons">
+          <button class="mood-button" data-mood="Happy">😊 Happy</button>
+          <button class="mood-button" data-mood="Sad">😢 Sad</button>
+          <button class="mood-button" data-mood="Excited">🤩 Excited</button>
+          <button class="mood-button" data-mood="Angry">😡 Angry</button>
+          <button class="mood-button" data-mood="Calm">😌 Calm</button>
+          <button class="mood-button" data-mood="Anxious">😰 Anxious</button>
+          <button class="mood-button" data-mood="Grateful">🙏 Grateful</button>
+          <button class="mood-button" data-mood="Relaxed">🛋️ Relaxed</button>
+          <button class="mood-button" data-mood="Confident">💪 Confident</button>
+          <button class="mood-button" data-mood="Lonely">😔 Lonely</button>
+          <button class="mood-button" data-mood="Motivated">🔥 Motivated</button>
+          <button class="mood-button" data-mood="Tired">😴 Tired</button>
+          <button class="mood-button" data-mood="Hopeful">🌈 Hopeful</button>
+          <button class="mood-button" data-mood="Confused">🤯 Confused</button>
+          <button class="mood-button" data-mood="Bored">😐 Bored</button>
+        </div>
+        <p id="mood-feedback"></p>
+      </section>
+
+      <!-- Self-Help Resources -->
+      <section id="resources">
+        <h2>Self-Help Resources</h2>
+        <ul>
+          <li><a href="https://www.mind.org.uk/" target="_blank">Mind</a></li>
+          <li><a href="https://www.nami.org/" target="_blank">NAMI</a></li>
+          <li><a href="https://www.mentalhealth.gov/" target="_blank">MentalHealth.gov</a></li>
+        </ul>
+        <h3>Speciality Consultation</h3>
+        <ul>
+          <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixn76brYOKAxUtpmYCHS18ANAYABABGgJzbQ&ae=2&aspm=1&co=1&ase=2&gclid=CjwKCAiA6aW6BhBqEiwA6KzDc3sl4T4zJDFH73nRjhIbVUkgEUbEmsj6Fxb7FKgLgxO6BepfIITWoBoCkoIQAvD_BwE&ohost=www.google.com&cid=CAESVuD2bObhOUL9rtI2mLCcpFjwMLmK95pBIUbhH4xK8pE6N4WxgcCjARkBCGVQ2_7JMG79BaGgZsQD6S36zd-vAs8JsozK2vWcXT8Qb3I2iR9Su0KesGn5&sig=AOD64_2qWfhGgqBr4IlCRMB64-9AU4-igw&q&nis=4&adurl&ved=2ahUKEwjgvLabrYOKAxUvR2wGHe6PBN0Q0Qx6BAgMEAM" target="_blank">Amaha Health</a></li>
+          <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixn76brYOKAxUtpmYCHS18ANAYABACGgJzbQ&ae=2&aspm=1&co=1&ase=2&gclid=CjwKCAiA6aW6BhBqEiwA6KzDc3bUVbuLWKLGNxr3fPylF-AhEKrkwl6nt3RB5E3U0ANVt57tokt6iRoCXvEQAvD_BwE&ohost=www.google.com&cid=CAESVuD2bObhOUL9rtI2mLCcpFjwMLmK95pBIUbhH4xK8pE6N4WxgcCjARkBCGVQ2_7JMG79BaGgZsQD6S36zd-vAs8JsozK2vWcXT8Qb3I2iR9Su0KesGn5&sig=AOD64_0Ue7v7WQ1qFObMobAcu5nnYR6CLA&q&nis=4&adurl&ved=2ahUKEwjgvLabrYOKAxUvR2wGHe6PBN0Q0Qx6BAgIEAE" target="_blank">Good Vibes healthcare</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
